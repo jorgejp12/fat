@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Camily - Fotografía para momentos especiales</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="normalize.css">
+
+    </head>
+
+    <body id="inicio">
+        <!-- Encabezado -->
+        <header class="encabezado">
+            <div class="contenedor-encabezado">
+                <a class="logo" href="#inicio">
+                    <svg class="logo-svg" viewBox="0 0 100 100"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <rect x="10" y="30" width="80" height="50" rx="5" ry="5"
+                            fill="#e78a8a" />
+                        <circle cx="50" cy="55" r="20" fill="#333" />
+                        <circle cx="50" cy="55" r="15" fill="#555" />
+                        <circle cx="50" cy="55" r="10" fill="#777" />
+                        <circle cx="50" cy="55" r="5" fill="#999" />
+                        <rect x="35" y="25" width="30" height="10" rx="2" ry="2"
+                            fill="#e78a8a" />
+                        <circle cx="80" cy="40" r="5" fill="#fff" />
+                        <path
+                            d="M20,20 C15,15 5,15 5,25 C5,35 20,40 20,40 C20,40 35,35 35,25 C35,15 25,15 20,20 Z"
+                            fill="#e78a8a" />
+                        <path
+                            d="M85,15 C80,10 70,10 70,20 C70,30 85,35 85,35 C85,35 100,30 100,20 C100,10 90,10 85,15 Z"
+                            fill="#e78a8a" />
+                        <polygon
+                            points="15,80 17,85 22,85 18,89 20,95 15,92 10,95 12,89 8,85 13,85"
+                            fill="#ffd700" />
+                        <polygon
+                            points="85,80 87,85 92,85 88,89 90,95 85,92 80,95 82,89 78,85 83,85"
+                            fill="#ffd700" />
+                    </svg>
+                    <span class="texto-logo">camily</span>
+                </a>
+
+                <!-- Navegación para pantallas grandes -->
+
+                <nav class="navegacion">
+                    <ul>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#galeria">Galería</a></li>
+                        <li><a href="#precios">Precios</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </nav>
+
+                <!-- Navegación para pantallas pequeñas -->
+
+                <input type="checkbox" class="navegacion-btn" id="menu-btn">
+
+                <label class="menu-btn" for="menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+
+
+                <ul class="navegacion-responsive">
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#galeria">Galería</a></li>
+                    <li><a href="#precios">Precios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+
+        </header>
+
+        <!-- botón de contacto rápido -->
+        <a class=" seguir-wp" target="_blank" href="https://wa.link/8ke6ud">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round"
+                class="icon icon-tabler icons-tabler-outline icon-tabler-brand-hipchat">
+
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path
+                    d="M17.802 17.292s.077 -.055 .2 -.149c1.843 -1.425 3 -3.49 3 -5.789c0 -4.286 -4.03 -7.764 -9 -7.764c-4.97 0 -9 3.478 -9 7.764c0 4.288 4.03 7.646 9 7.646c.424 0 1.12 -.028 2.088 -.084c1.262 .82 3.104 1.493 4.716 1.493c.499 0 .734 -.41 .414 -.828c-.486 -.596 -1.156 -1.551 -1.416 -2.29z" />
+                <circle class="eye" cx="9" cy="9" r=".9" fill="currentColor" />
+                <circle class="eye" cx="15" cy="9" r=".9" fill="currentColor" />
+                <path d="M7.5 13.5c2.5 2.5 6.5 2.5 9 0" />
+            </svg>
+        </a>
+
+        <!-- Sección Hero -->
+        <section class="hero">
+            <div class="contenido-hero">
+                <h1>Capturamos tus momentos más importantes</h1>
+                <p>Somos los indicados para esos momentos especiales que merecen
+                    ser recordados para siempre</p>
+                <a href="#contacto" class="boton">Contáctanos</a>
+            </div>
+        </section>
+
+        <!-- Sección Nosotros -->
+        <section id="nosotros" class="seccion nosotros">
+            <div class="contenedor">
+                <div class="titulo-seccion">
+                    <h2>Nosotros</h2>
+                </div>
+                <article class="contenido-nosotros">
+                    <div class="imagen-nosotros">
+                        <img src="./images/image (3).png" alt="Sobre Camily">
+                    </div>
+                    <div class="texto-nosotros">
+                        <h3>Nuestra Historia</h3>
+                        <p>En Camily, nos apasiona capturar los momentos más
+                            significativos de tu vida. Con años de experiencia
+                            en fotografía de bodas, eventos especiales y
+                            retratos familiares, nos hemos convertido en
+                            expertos en transformar instantes fugaces en
+                            recuerdos eternos.</p>
+                        <p>Nuestro equipo está formado por fotógrafos
+                            profesionales dedicados a brindar un servicio
+                            personalizado y de alta calidad. Entendemos que cada
+                            momento es único, y nos esforzamos por capturar la
+                            esencia y emoción de cada ocasión.</p>
+                        <a href="#contacto" class="boton-oscuro">Conoce
+                            más</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Sección Galería -->
+        <section id="galeria" class="seccion galeria">
+            <div class="contenedor">
+                <div class="titulo-seccion">
+                    <h2>Galería</h2>
+                </div>
+                <ul class="contenido-galeria">
+                    <li class="item-galeria" id="bodas"
+                        aria-label="Servicio de fotografía para bodas"
+                        title="Capturamos cada momento mágico de tu boda, desde la ceremonia hasta la recepción. Nuestro servicio incluye fotos del altar, los votos, el primer baile, el lanzamiento del ramo y todos los momentos emotivos con familiares y amigos.">
+                        <img src="/images/boda.jpeg"
+                            alt="Galería de fotos de bodas">
+                        <div class="overlay-galeria">
+                            <span>Bodas</span>
+                        </div>
+                    </li>
+                    <li class="item-galeria" id="compromisos"
+                        aria-label="Servicio de fotografía para compromisos"
+                        title="Inmortalizamos el momento especial de tu propuesta y compromiso. Ofrecemos sesiones románticas que capturan la emoción y el amor entre la pareja, incluyendo fotos del anillo, la propuesta y los primeros momentos como prometidos.">
+                        <img src="/images/compromiso.jpg"
+                            alt="Galería de fotos de compromisos">
+                        <div class="overlay-galeria">
+                            <span>Compromisos</span>
+                        </div>
+                    </li>
+                    <li class="item-galeria" id="familias"
+                        aria-label="Servicio de fotografía familiar"
+                        title="Creamos recuerdos familiares duraderos con sesiones fotográficas personalizadas. Capturamos la dinámica única de cada familia, desde retratos formales hasta momentos espontáneos y naturales, perfectos para álbumes familiares y decoración del hogar.">
+                        <img src="/images/familia.jpg"
+                            alt="Galería de fotos familiares">
+                        <div class="overlay-galeria">
+                            <span>Familias</span>
+                        </div>
+                    </li>
+                    <li class="item-galeria" id="eventos"
+                        aria-label="Servicio de fotografía para eventos"
+                        title="Documentamos todo tipo de eventos especiales como graduaciones, fiestas de cumpleaños, aniversarios y eventos corporativos. Nuestro servicio garantiza que cada momento importante y la atmósfera del evento queden perfectamente capturados.">
+                        <img src="/images/eventos.jpg"
+                            alt="Galería de fotos de eventos">
+                        <div class="overlay-galeria">
+                            <span>Eventos</span>
+                        </div>
+                    </li>
+                    <li class="item-galeria" id="retratos"
+                        aria-label="Servicio de fotografía de retratos"
+                        title="Realizamos sesiones de retratos profesionales que capturan la verdadera esencia de cada persona. Ideal para fotos profesionales, artísticas, de graduación o simplemente para tener un recuerdo especial de ti mismo.">
+                        <img src="/images/retratos.jpg"
+                            alt="Galería de retratos fotográficos">
+                        <div class="overlay-galeria">
+                            <span>Retratos</span>
+                        </div>
+                    </li>
+                    <li class="item-galeria" id="exteriores"
+                        aria-label="Servicio de fotografía en exteriores"
+                        title="Especializados en sesiones fotográficas al aire libre, aprovechando la luz natural y hermosos paisajes. Perfectas para fotos pre-boda, familiares o personales en entornos naturales como parques, playas o jardines.">
+                        <img src="/images/exteriores.jpeg"
+                            alt="Galería de fotos en exteriores">
+                        <div class="overlay-galeria">
+                            <span>Exteriores</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Sección Precios -->
+        <section id="precios" class="seccion precios">
+            <div class="contenedor">
+                <div class="titulo-seccion">
+                    <h2>Precios</h2>
+                </div>
+                <div class="contenedor-precios">
+                    <article class="tarjeta-precio">
+                        <h3>Básico</h3>
+                        <div class="precio">$2,500</div>
+                        <ul>
+                            <li>
+                                <span>4 horas de cobertura</span>
+                                <i
+                                    title="tendrás la oportunidad de trabajar 4 horas con nosotros">
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                        width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="icon icon-tabler icons-tabler-outline icon-tabler-info-circle">
+                                        <path stroke="none" d="M0 0h24v24H0z"
+                                            fill="none" />
+                                        <path
+                                            d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                                        <path d="M12 9h.01" />
+                                        <path d="M11 12h1v4h1" />
+                                    </svg>
+                                </i>
+                            </li>
+                            <li>
+                                <span>100 fotos editadas</span>
+                                <i
+                                    title="podrás editar 100 fotos de cualquier gusto">
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                        width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="icon icon-tabler icons-tabler-outline icon-tabler-info-circle">
+                                        <path stroke="none" d="M0 0h24v24H0z"
+                                            fill="none" />
+                                        <path
+                                            d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                                        <path d="M12 9h.01" />
+                                        <path d="M11 12h1v4h1" />
+                                    </svg>
+                                </i>
+                            </li>
+                            <li>
+                                <span>Entrega digital</span>
+                                <i
+                                    title="todas tus entregas serán digitales y gracias a ello las obtendrás mas rápido">
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                        width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="icon icon-tabler icons-tabler-outline icon-tabler-info-circle">
+                                        <path stroke="none" d="M0 0h24v24H0z"
+                                            fill="none" />
+                                        <path
+                                            d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                                        <path d="M12 9h.01" />
+                                        <path d="M11 12h1v4h1" />
+                                    </svg>
+                                </i>
+                            </li>
+                            <li>
+                                <span>7 días de entrega</span>
+                                <i
+                                    title="por cada entrega tendrás los 7 Dias hábiles de la semana sera una prueba para ti">
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                        width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="icon icon-tabler icons-tabler-outline icon-tabler-info-circle">
+                                        <path stroke="none" d="M0 0h24v24H0z"
+                                            fill="none" />
+                                        <path
+                                            d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                                        <path d="M12 9h.01" />
+                                        <path d="M11 12h1v4h1" />
+                                    </svg>
+                                </i>
+                            </li>
+                            <li>
+                                <span>1 fotógrafo</span>
+                                <i
+                                    title="tendrás un fotógrafo profesional para tu evento">
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                        width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="icon icon-tabler icons-tabler-outline icon-tabler-info-circle">
+                                        <path stroke="none" d="M0 0h24v24H0z"
+                                            fill="none" />
+                                        <path
+                                            d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                                        <path d="M12 9h.01" />
+                                        <path d="M11 12h1v4h1" />
+                                    </svg>
+                                </i>
+                            </li>
+                        </ul>
+                        <a href="#contacto" class="boton">Reservar</a>
+                    </article>
+                    <!--  tarjeta premium -->
+                    <article class="tarjeta-precio"
+                        style="transform: scale(1.05); border: 2px solid var(--color-primario);">
+                        <h3>Premium</h3>
+                        <div class="precio">$5,000</div>
+                        <ul>
+                            <li>
+                                <input type="range" name="precio" id="precio">
+                                <label class="interruptor-label" for="precio">
+                                    horas ilimitadas de cobertura
+                                    <i
+                                        title="aquí podrás sumar la totalidad del precio en las horas de cobertura">
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            class="icon icon-tabler icons-tabler-outline icon-tabler-info-circle">
+                                            <path stroke="none"
+                                                d="M0 0h24v24H0z" fill="none" />
+                                            <path
+                                                d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                                            <path d="M12 9h.01" />
+                                            <path d="M11 12h1v4h1" />
+                                        </svg>
+                                    </i>
+                                </label>
+                            </li>
+                            <li>
+                                <div class="contenedor-interruptor">
+                                    <input class="interruptor" id="interruptor"
+                                        type="checkbox" />
+                                    <label class="interruptor-label"
+                                        for="interruptor">
+                                        <div class="interruptor-giro">
+                                            <div class="interruptor-frente">
+                                                <svg fill="white"
+                                                    viewBox="0 0 24 24"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M19 13H12V19H11V13H5V12H11V6H12V12H19V13Z"
+                                                        class="icon-path">
+                                                    </path>
+                                                </svg>
+                                            </div>
+                                            <div class="interruptor-atras">
+                                                <svg fill="white"
+                                                    viewBox="0 0 24 24"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M9 19l-7-7 1.41-1.41L9 16.17l11.29-11.3L22 6l-13 13z"
+                                                        class="icon-path">
+                                                    </path>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </label>
+                                </div>
+
+                                <label class="interruptor-label"
+                                    for="interruptor">
+                                    videos de la ceremonia
+                                    <i
+                                        title="selecciona aquí si quieres grabar tu ceremonia ">
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            class="icon icon-tabler icons-tabler-outline icon-tabler-info-circle">
+                                            <path stroke="none"
+                                                d="M0 0h24v24H0z" fill="none" />
+                                            <path
+                                                d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                                            <path d="M12 9h.01" />
+                                            <path d="M11 12h1v4h1" />
+                                        </svg>
+                                    </i>
+                                </label>
+                            </li>
+                            <li>
+                                <div class="contenedor-interruptor">
+                                    <input class="interruptor" id="compromiso"
+                                        type="checkbox" />
+                                    <label class="interruptor-label"
+                                        for="compromiso">
+                                        <div class="interruptor-giro">
+                                            <div class="interruptor-frente">
+                                                <svg fill="white"
+                                                    viewBox="0 0 24 24"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M19 13H12V19H11V13H5V12H11V6H12V12H19V13Z"
+                                                        class="icon-path">
+                                                    </path>
+                                                </svg>
+                                            </div>
+                                            <div class="interruptor-atras">
+                                                <svg fill="white"
+                                                    viewBox="0 0 24 24"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M9 19l-7-7 1.41-1.41L9 16.17l11.29-11.3L22 6l-13 13z"
+                                                        class="icon-path">
+                                                    </path>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </label>
+                                </div>
+
+                                <label class="interruptor-label"
+                                    for="compromiso">
+                                    sesión de compromiso
+                                    <i
+                                        title="selecciona si quieres tener una sesión personal de acerca de los compromisos">
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            class="icon icon-tabler icons-tabler-outline icon-tabler-info-circle">
+                                            <path stroke="none"
+                                                d="M0 0h24v24H0z" fill="none" />
+                                            <path
+                                                d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                                            <path d="M12 9h.01" />
+                                            <path d="M11 12h1v4h1" />
+                                        </svg>
+                                    </i>
+                                </label>
+                            </li>
+
+                            <li>
+                                <div class="contenedor-interruptor">
+                                    <input class="interruptor" id="conbinacion"
+                                        type="checkbox" />
+                                    <label class="interruptor-label"
+                                        for="conbinacion">
+                                        <div class="interruptor-giro">
+                                            <div class="interruptor-frente">
+                                                <svg fill="white"
+                                                    viewBox="0 0 24 24"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M19 13H12V19H11V13H5V12H11V6H12V12H19V13Z"
+                                                        class="icon-path">
+                                                    </path>
+                                                </svg>
+                                            </div>
+                                            <div class="interruptor-atras">
+                                                <svg fill="white"
+                                                    viewBox="0 0 24 24"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M9 19l-7-7 1.41-1.41L9 16.17l11.29-11.3L22 6l-13 13z"
+                                                        class="icon-path">
+                                                    </path>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </label>
+                                </div>
+
+                                <label class="interruptor-label"
+                                    for="conbinacion">
+                                    Combinación de fotos
+                                    <i
+                                        title="Esta opción es para hacer un collage de las imágenes o una agrupación con todas las imágenes (mas dinero)">
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            class="icon icon-tabler icons-tabler-outline icon-tabler-info-circle">
+                                            <path stroke="none"
+                                                d="M0 0h24v24H0z" fill="none" />
+                                            <path
+                                                d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                                            <path d="M12 9h.01" />
+                                            <path d="M11 12h1v4h1" />
+                                        </svg>
+                                    </i>
+                                </label>
+                            </li>
+                        </ul>
+                        <a href="#contacto" class="boton">Reservar</a>
+                    </article>
+
+                    <article class="tarjeta-precio">
+                        <h3>Completo</h3>
+                        <div class="precio">$3,500</div>
+                        <ul>
+                            <li>12 horas de cobertura
+                                <i
+                                    title="Disfruta de una cobertura completa de 12 horas para capturar cada momento importante de tu evento">
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                        width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="icon icon-tabler icons-tabler-outline icon-tabler-info-circle">
+                                        <path stroke="none" d="M0 0h24v24H0z"
+                                            fill="none" />
+                                        <path
+                                            d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                                        <path d="M12 9h.01" />
+                                        <path d="M11 12h1v4h1" />
+                                    </svg>
+                                </i>
+                            </li>
+                            <li>
+                                <span>Un libro decorado fotografías</span>
+                                <i
+                                    title="Recibe un hermoso libro fotográfico decorado con tus mejores momentos">
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                        width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="icon icon-tabler icons-tabler-outline icon-tabler-info-circle">
+                                        <path stroke="none" d="M0 0h24v24H0z"
+                                            fill="none" />
+                                        <path
+                                            d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                                        <path d="M12 9h.01" />
+                                        <path d="M11 12h1v4h1" />
+                                    </svg>
+                                </i>
+                            </li>
+                            <li>
+                                <span>Posibilidad de
+                                    enmarcar</span>
+                                <i
+                                    title="Opción de enmarcar profesionalmente cualquiera de tus fotografías favoritas">
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                        width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="icon icon-tabler icons-tabler-outline icon-tabler-info-circle">
+                                        <path stroke="none" d="M0 0h24v24H0z"
+                                            fill="none" />
+                                        <path
+                                            d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                                        <path d="M12 9h.01" />
+                                        <path d="M11 12h1v4h1" />
+                                    </svg>
+                                </i>
+                            </li>
+                            <li>500 fotos editadas
+                                <i
+                                    title="Recibe 500 fotografías profesionalmente editadas y retocadas">
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                        width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="icon icon-tabler icons-tabler-outline icon-tabler-info-circle">
+                                        <path stroke="none" d="M0 0h24v24H0z"
+                                            fill="none" />
+                                        <path
+                                            d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                                        <path d="M12 9h.01" />
+                                        <path d="M11 12h1v4h1" />
+                                    </svg>
+                                </i>
+                            </li>
+                            <li>2 fotógrafo
+                                <i
+                                    title="Dos fotógrafos profesionales trabajando en conjunto para capturar tu evento desde múltiples ángulos">
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                        width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="icon icon-tabler icons-tabler-outline icon-tabler-info-circle">
+                                        <path stroke="none" d="M0 0h24v24H0z"
+                                            fill="none" />
+                                        <path
+                                            d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                                        <path d="M12 9h.01" />
+                                        <path d="M11 12h1v4h1" />
+                                    </svg>
+                                </i>
+                            </li>
+                        </ul>
+                        <a href="#contacto" class="boton">Reservar</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Contacto -->
+        <section id="contacto" class="seccion contacto">
+            <div class="contenedor">
+                <div class="titulo-seccion">
+                    <h2>Contacto</h2>
+                </div>
+                <div class="contenedor-contacto">
+                    <article class="info-contacto">
+                        <div>
+                            <h3>¿Ya tienes tu fecha especial?</h3>
+                            <p>¡Nos encantaría ser parte de tu historia! En
+                                Camily,
+                                no solo capturamos fotografías, creamos
+                                recuerdos que perdurarán
+                                para siempre.</p>
+
+
+                            <p>Ya sea una boda íntima, un evento
+                                corporativo o una sesión familiar, nuestro
+                                equipo está
+                                comprometido a brindarte una experiencia
+                                excepcional.</p>
+
+                            <p>Contáctanos hoy mismo y déjanos ayudarte a
+                                transformar
+                                tus momentos más preciados en obras de arte
+                                fotográficas
+                                que atesorarás toda la vida.</p>
+                        </div>
+                        <div class="detalles-contacto">
+                            <div>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="icon icon-tabler icons-tabler-outline icon-tabler-map-pin">
+                                        <path stroke="none" d="M0 0h24v24H0z"
+                                            fill="none" />
+                                        <path
+                                            d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                                        <path
+                                            d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                                    </svg>
+                                </span>
+                                <p>Av. Principal 123, Ciudad</p>
+                            </div>
+                            <div>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="icon icon-tabler icons-tabler-outline icon-tabler-phone">
+                                        <path stroke="none" d="M0 0h24v24H0z"
+                                            fill="none" />
+                                        <path
+                                            d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+                                    </svg>
+                                </span>
+                                <p>+57 300 1768751</p>
+                            </div>
+                            <div>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="icon icon-tabler icons-tabler-outline icon-tabler-mail">
+                                        <path stroke="none" d="M0 0h24v24H0z"
+                                            fill="none" />
+                                        <path
+                                            d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" />
+                                        <path d="M3 7l9 6l9 -6" />
+                                    </svg>
+                                </span>
+                                <p>infoCamily@hotmail.com</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="formulario-contacto">
+                        <form method="post">
+                            <div class="grupo-formulario">
+                                <label for="nombre">Nombre</label>
+                                <input type="text" id="nombre"
+                                    placeholder="(Nombre)" required>
+                            </div>
+                            <div class="grupo-formulario">
+                                <label for="email">Email</label>
+                                <input type="email" id="email"
+                                    placeholder="(Email - Opcional)">
+                            </div>
+                            <div class="grupo-formulario">
+                                <label for="telefono">Teléfono</label>
+                                <input type="tel" id="telefono" required
+                                    placeholder="(Teléfono)">
+                            </div>
+                            <div class="grupo-formulario">
+                                <label for="mensaje">Mensaje</label>
+                                <textarea id="mensaje"
+                                    placeholder="(Cuéntanos sobre tu proyecto - Opcional)"></textarea>
+                            </div>
+                            <button type="submit" class="boton"
+                                style="border: none; cursor: pointer; width: 100%; color:var(--color-texto); font-weight: 700; font-size: var(--tamano-fuente-pequeno);">Enviar
+                                Mensaje</button>
+                        </form>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pie de página -->
+        <footer class="pie-pagina">
+            <div class="contenedor">
+                <div class="contenedor-pie">
+                    <article class="logo-pie">
+                        <svg width="100" height="100" viewBox="0 0 100 100"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <rect x="10" y="30" width="80" height="50" rx="5"
+                                ry="5" fill="#e78a8a" />
+                            <circle cx="50" cy="55" r="20" fill="#333" />
+                            <circle cx="50" cy="55" r="15" fill="#555" />
+                            <circle cx="50" cy="55" r="10" fill="#777" />
+                            <circle cx="50" cy="55" r="5" fill="#999" />
+                            <rect x="35" y="25" width="30" height="10" rx="2"
+                                ry="2" fill="#e78a8a" />
+                            <circle cx="80" cy="40" r="5" fill="#fff" />
+                            <path
+                                d="M20,20 C15,15 5,15 5,25 C5,35 20,40 20,40 C20,40 35,35 35,25 C35,15 25,15 20,20 Z"
+                                fill="#e78a8a" />
+                            <path
+                                d="M85,15 C80,10 70,10 70,20 C70,30 85,35 85,35 C85,35 100,30 100,20 C100,10 90,10 85,15 Z"
+                                fill="#e78a8a" />
+                            <polygon
+                                points="15,80 17,85 22,85 18,89 20,95 15,92 10,95 12,89 8,85 13,85"
+                                fill="#ffd700" />
+                            <polygon
+                                points="85,80 87,85 92,85 88,89 90,95 85,92 80,95 82,89 78,85 83,85"
+                                fill="#ffd700" />
+                        </svg>
+                        <p>Capturando momentos especiales y creando recuerdos
+                            que durarán toda la vida.</p>
+                    </article>
+                    <article class="enlaces-pie">
+                        <h4>Enlaces Rápidos</h4>
+                        <ul>
+                            <li><a href="#nosotros">Nosotros</a></li>
+                            <li><a href="#galeria">Galería</a></li>
+                            <li><a href="#precios">Precios</a></li>
+                            <li><a href="#contacto">Contacto</a></li>
+                        </ul>
+                    </article>
+                    <article class="enlaces-pie">
+                        <h4>Servicios</h4>
+                        <ul>
+                            <li><a href="#bodas">Bodas</a></li>
+                            <li><a href="#compromisos">Compromisos</a></li>
+                            <li><a href="#eventos">Eventos</a></li>
+                            <li><a href="#retratos">Retratos</a></li>
+                            <li><a href="#exteriores">Exteriores</a></li>
+                            <li><a href="#familias">Sesiones familiares</a></li>
+                        </ul>
+                    </article>
+                    <article class="enlaces-pie">
+                        <h4>Síguenos</h4>
+                        <ul>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Pinterest</a></li>
+                            <li><a href="#">Twitter</a></li>
+                        </ul>
+                    </article>
+                </div>
+                <div class="pie-inferior">
+                    <p>&copy; 2025 Camily.</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+
+</html>
